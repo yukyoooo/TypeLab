@@ -319,10 +319,7 @@ footer p{
   font-weight: normal;
   margin:13px;
 }
-
-
 /*  メールフォーム*/
-
 .col1{
   padding-top:100px;
   text-align: left;
@@ -344,7 +341,6 @@ footer p{
 }
 .form{
   border-radius: 10px;
-  
 }
 th{
   font-weight: normal;
@@ -354,8 +350,6 @@ input, textarea,select{
   padding: 10px;
   border-radius: 5px;
   border: 1px solid gray;
-
-
 }
 .tac{
   text-align: center;
@@ -374,6 +368,22 @@ input, textarea,select{
   background-color: rgba(50,205,50,0.6)
 }
 
+
+/*  */
+/*  利用規約*/
+/*  */
+/*  説明*/
+.termsOfService-wrapper{
+  padding-top:100px;
+  margin:0px 10%;
+  color:rgba(0, 0, 0, 0.9);
+  height:1500px;
+}
+.container2 p{
+  line-height: 25px;
+  font-size: 16px;
+
+}
 
 
 
