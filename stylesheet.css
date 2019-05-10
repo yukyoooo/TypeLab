@@ -20,7 +20,7 @@
 
 
 
-
+/*  ヘッダー*/
 header {
   height:80px;
   width: 100%;
@@ -51,38 +51,28 @@ header {
 }
 .header-right li{
   margin-right: 15px;
-  padding-bottom: 38px;
   float: left;
   font-size: 0.875rem;
   line-height: 30px;
 }
-
 .header-right li:hover {
   background-color: rgba(152,251,152, 0.5);
   border-radius: 10px;
 }
-
 .header-right a {
   line-height: 50px;
-  height:10px;
+  height:50px;
   padding: 0 30px;
   color:#006400;
   display: block;
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
+/*  ヘッダー文の余白*/
 .top-wrapperTowhite{
   height:58px;
 }
+/*  トップ*/
 .top-wrapper{
   width:80%;
   margin-left: 10%;
@@ -102,20 +92,7 @@ header {
   opacity: 0.8
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*  ４つのボタン*/
 .btnToLink-wrapper{
   height: 80px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -143,12 +120,10 @@ header {
   font-size: 0.875rem;
   line-height: 30px;
 }
-
 .btnToLink li:hover {
   background-color: rgba(152,251,152, 0.5);
   border-radius: 10px;
 }
-
 .btnToLink a {
   line-height: 50px;
   height:10px;
@@ -158,9 +133,7 @@ header {
   text-decoration: none;
 }
 
-
-
-
+/*  前書き　interest*/
 .interest-wrapper{
   height:500px;
   text-align: center;
@@ -190,7 +163,7 @@ header {
 
 
 
-
+/*  【「当たり前」の違いを科学する】*/
 .fourType-wrapper{
   width:80%;
   height:300px;
@@ -206,6 +179,7 @@ header {
   width:41%;
 }
 
+/*  【4文字タイプとは何か？】*/
 .fourTypeDescription-wrapper{
   width:80%;
   height:570px;
@@ -217,7 +191,7 @@ header {
 
 
 
-
+/*  【タイプ違いによるトラブルの例】*/
 .meritToKnow-wrapper{
   width:80%;
   height:700px;
@@ -249,7 +223,7 @@ header {
 
 
 
-
+/*  【4文字タイプを知るメリット】*/
 .typeSessionContents-wrapper{
   width:80%;
   height:450px;
@@ -277,19 +251,23 @@ header {
 
 
 
-
+/*  【4文字タイプセッションの内容・雰囲気】*/
 .groupSession-wrapper{
   width:80%;
   height:350px;
   margin-left: 10%;
 }
 
+
+/*  グループセッションで本当の自分を見つける】*/
 .behappy-wrapper{
   width:80%;
   height:550px;
   margin-left: 10%;
 }
 
+
+/*  【タイプを知って人生が輝く】*/
 .toSession-wrapper{
   width:80%;
   height:700px;
@@ -318,4 +296,92 @@ footer p{
   padding:10px 30px;
   color:white;
   margin:0px;
+}
+
+
+
+
+
+
+
+/*  */
+/*  お問い合わせページ*/
+/*  */
+.top-form-wrapper{
+  width:100%;
+  height:200px;
+  background-color: #32cd32;
+}
+.top-form-wrapper h1{
+  color: white;
+  line-height: 200px;
+  font-size: 40px;
+  font-weight: normal;
+  margin:13px;
+}
+
+
+/*  メールフォーム*/
+
+.col1{
+  padding-top:100px;
+  text-align: left;
+  height:970px;
+  width:50%;
+  margin: auto;
+}
+.col h2 {
+  font-size: 40px;
+  color:gray;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 0px;
+  margin:0 30% 45px 30%;
+}
+.required{
+  text-align: right;
+  color:red;
+  font-size: 15px;
+}
+.form{
+  border-radius: 10px;
+  
+}
+th{
+  font-weight: normal;
+  color:gray;
+}
+input, textarea,select{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+
+
+}
+.tac{
+  text-align: center;
+  border-radius: 10px;
+}
+.submit{
+  background-color: #32cd32;
+  color:white;
+  width:500px;
+  padding: 15px;
+  border-style: none;
+  transition: all 0.5s;
+  cursor : pointer;
+}
+.submit:hover{
+  background-color: rgba(50,205,50,0.6)
+}
+
+
+
+
+
+
+
+
+/*  フォントをメイリオにする*/
+body{
+font-family:'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif !important;
 }
