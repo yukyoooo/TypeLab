@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>TypeLab</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <h2>TypeLab</h2>
+        </div>
+        <div class="header-right">
+          <ul class="clearfix">
+            <li class="home">
+              <a href="index.html">トップ</a>
+            </li>
+            <li class="service">
+              <a href="/service">サービス</a>
+            </li>
+            <li class="company">
+              <a href="/company">あいさつ</a>
+            </li>
+            <li class="contactForm">
+              <a href="form.html">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapperTowhite">
+    </div>
+    <div class="top-form-wrapper">
+      <div class="container">
+        <h1>お問い合わせ</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+    		<div class="col1">
+    			<div class="col">
+    				<h2>お問い合わせ</h2>
+    				<form action="mail.php" name="form" id="form" method="post" class="form">
+    					<p class="required ta-r">(※)=必須項目です</p>
+    					<table>
+    						<tr>
+    							<th>お名前<span class="required">(※)</span></th>
+    							<td id="td-Name"><input id="Name" name="Name" type="text" size="40" maxlength="40" onblur="Validator.check(this, 'zenkaku')"/></td>
+    						</tr>
+                <tr>
+    							<th>E-mail<span class="required">(※)</span></th>
+    							<td id="td-mail"><input id="mail" name="mail" type="text" size="40" maxlength="100"  onblur="Validator.check(this, 'mail')"/></td>
+    						</tr>
+    						<tr>
+    							<th>紹介者</th>
+    							<td id="td-introducer"><input id="introducer" name="introducer" type="text" size="40" maxlength="50" /></td>
+    						</tr>
+    						<tr>
+    							<th>電話番号</th>
+    							<td id="td-phoneNumber"><input id="phoneNumber" name="phoneNumber" type="text" size="40" maxlength="20" /></td>
+    						</tr>
+                <tr>
+    							<th>興味分野</th>
+    							<td id="td-inquireDivision">
+    								<select id="inquireDivision" onblur="Validator.check(this)" name="mailToNum">
+    									<option value="1" name="1" selected >1.</option>
+    									<option value="2" name="2">2.</option>
+    									<option value="3" name="3">3.</option>
+    									<option value="4" name="4">4.</option>
+    									<option value="5" name="5">5.</option>
+    									<option value="6" name="6">6.</option>
+    									<option value="7" name="7">7.</option>
+    									<option value="8" name="8">8.</option>
+    								</select><br/>
+    							</td>
+    						</tr>
+    						<tr>
+    							<th>お問い合わせ<br />
+    							内容<span class="required">(※)</span></th>
+    							<td id="td-inquireContents">
+    							<textarea id="inquireContents" name="inquireContents" cols="65" rows="7"  onblur="Validator.check(this)"></textarea></td>
+    						</tr>
+    					</table>
+    					<p>内容に誤りがなければ、当社の<a href="termsOfService.html" target="_blank">利用規約</a>をお読みいただき、当社における個人情報の取り扱いに同意いただける場合は下の「送信内容を確認する」ボタンをクリックしてください。
+    					<div class="tac">
+    						<input type="hidden" name="mode" id="mode" value="CONFIRM">
+    						<button type="submit" name="confirm" value="" class="submit">当社における利用規約に同意いただき、送信内容を確認する</button>
+    					</div>
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="container">
+          <p></p>
+        </div>
+      </div>
+    </footer>
+  <script src = "script.js"></script>
+  </body>
+</html>
