@@ -17,9 +17,6 @@
 }
 
 
-
-
-
 /*  ヘッダー*/
 header {
   height:80px;
@@ -67,7 +64,6 @@ header {
   display: block;
   text-decoration: none;
 }
-
 /*  ヘッダー文の余白*/
 .top-wrapperTowhite{
   height:58px;
@@ -91,7 +87,6 @@ header {
   color:black;
   opacity: 0.8
 }
-
 /*  ４つのボタン*/
 .btnToLink-wrapper{
   height: 80px;
@@ -132,7 +127,6 @@ header {
   display: block;
   text-decoration: none;
 }
-
 /*  前書き　interest*/
 .interest-wrapper{
   height:500px;
@@ -157,12 +151,6 @@ header {
   float:left;
   width:40%;
 }
-
-
-
-
-
-
 /*  【「当たり前」の違いを科学する】*/
 .fourType-wrapper{
   width:80%;
@@ -178,7 +166,6 @@ header {
   float: right;
   width:41%;
 }
-
 /*  【4文字タイプとは何か？】*/
 .fourTypeDescription-wrapper{
   width:80%;
@@ -186,11 +173,6 @@ header {
   margin-left: 10%;
 
 }
-
-
-
-
-
 /*  【タイプ違いによるトラブルの例】*/
 .meritToKnow-wrapper{
   width:80%;
@@ -218,17 +200,11 @@ header {
   padding-top:20px;
   border: 1px solid gray;
 }
-
-
-
-
-
 /*  【4文字タイプを知るメリット】*/
 .typeSessionContents-wrapper{
   width:80%;
   height:450px;
   margin-left: 10%;
-
 }
 .fourType-text4{
   float: left;
@@ -244,29 +220,18 @@ header {
   padding-top:0px;
   border: 1px solid gray;
 }
-
-
-
-
-
-
-
 /*  【4文字タイプセッションの内容・雰囲気】*/
 .groupSession-wrapper{
   width:80%;
   height:350px;
   margin-left: 10%;
 }
-
-
 /*  グループセッションで本当の自分を見つける】*/
 .behappy-wrapper{
   width:80%;
   height:550px;
   margin-left: 10%;
 }
-
-
 /*  【タイプを知って人生が輝く】*/
 .toSession-wrapper{
   width:80%;
@@ -277,11 +242,6 @@ header {
 .fourType-pic7{
   margin-top:50px;
 }
-
-
-
-
-
 footer {
   padding-top:100px;
   width:100%;
@@ -290,7 +250,6 @@ footer {
   padding-top:00px;
   background-color: rgba(34, 49, 52, 0.9);
 }
-
 footer p{
   float:right;
   padding:10px 30px;
@@ -299,9 +258,71 @@ footer p{
 }
 
 
+/*  */
+/*  サービスページ*/
+/*  */
+.service-interest-wrapper{
+  height: 350px;
+  text-align: center;
+  padding: 100px 0px;
+}
+/*  ３つの料金携帯*/
+.fee-wrapper{
+  height: 270px;
+  text-align: center;
+}
+/*  1000人以上の会社*/
+.fee1000-class{
+  float: left;
+  width:32%;
+  border: 1px solid #a9a9a9;
+  border-radius: 10px;
 
-
-
+}
+/*  100-1000人の会社*/
+.fee100-1000-class{
+  float: left;
+  width:32%;
+  border: 1px solid #a9a9a9;
+  border-radius: 10px;
+  margin:0px 2%;
+}
+/*  99人以下の会社*/
+.fee99-class{
+  float: left;
+  width:32%;
+  border: 1px solid #a9a9a9;
+  border-radius: 10px;
+}
+.fee-wrapper p{
+  border-top:1px solid #a9a9a9;
+  margin:20px 15%;
+}
+/*  注意書き*/
+.explain-wrapper{
+  text-align: center;
+  height: 100px;
+}
+/*  お問い合わせボタン*/
+.form-btn-wrapper{
+  text-align: center;
+  margin:20px 30%;
+}
+.form-btn{
+  display: block;
+  height: 50px;
+  width:100%;
+  background-color:#32cd32;
+  transition: all 0.5s;
+  cursor : pointer;
+  line-height: 50px;
+  text-decoration:none;
+  color:white;
+  border-radius: 5px;
+}
+.form-btn:hover{
+  background-color: rgba(50,205,50,0.6)
+}
 
 
 /*  */
