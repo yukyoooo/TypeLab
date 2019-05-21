@@ -389,6 +389,30 @@ input, textarea,select{
   background-color: rgba(50,205,50,0.6)
 }
 
+/*  */
+/*  あいさつ*/
+/*  */
+.greeting-wrapper{
+  padding:100px 0px;
+  height: 600px;
+}
+.greeting-img{
+  float:left;
+  width:40%;
+  margin-top:90px;
+}
+.greeting-img img{
+  border-radius: 10px;
+}
+.greeting-text{
+  float:left;
+  width:60%;
+}
+.message{
+  text-align: center;
+  padding-bottom:100px;
+}
+
 
 /*  */
 /*  利用規約*/
@@ -403,7 +427,6 @@ input, textarea,select{
 .container2 p{
   line-height: 25px;
   font-size: 16px;
-
 }
 
 
